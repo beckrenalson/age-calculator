@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins-Bold.ttf);
+}
+
+body {
+    font-family: Poppins;
+    background-color: hsl(0, 0%, 94%);
+}
+
+.flex {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 800px;
+    padding: 50px;
+    border-radius: 30px 30px 200px 30px;
+    background-color: white;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+input {
+    height: 70px;
+    width: 140px;
+    border: solid hsl(0, 0%, 86%);
+    border-radius: 10px;
+    color: black;
+    padding-left: 30px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+h4 {
+    color: hsl(0, 1%, 44%);
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigitalics {
+    font-size: 120px;
+    display: flex;
+    font-style: italic;
+}
+
+.num {
+    color: hsl(259, 100%, 65%);
+}
+
+.calculate {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    background-color: hsl(259, 100%, 65%);
+    padding: 30px;
+    border-radius: 100px;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
